@@ -36,8 +36,20 @@
 
 
 #hero img {
-    width: 250px;
+    width: 200px;
     height: auto;
     box-shadow: 0 0 30px #777;
     margin: .5rem;
+    border: 55px;
+    padding: 10px;
+}
+
+#hero h1 {
+    font-size: medium;
+}
+#hero h2 {
+    font-size: medium;
+}
+#hero h3 {
+    font-size: smaller;
 }
