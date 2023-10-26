@@ -51,7 +51,7 @@ const getTemples = async () => {
 
 /* reset Function */
 function reset() {
-    document.querySelector("#templesElement").textContent = "article";
+    document.querySelector("#temples").textContent = "";
 }
 
 
@@ -60,8 +60,8 @@ function sortBy(temples){
     reset()
     const filter = document.querySelector("#sortBy").innerHTML
 
-    const sortedtemples =templeListList.sort(compare)
-    outPutTemples(sortedTemples)
+    const sortedTemples =templeList.sort(compare)
+    displayTemples(sortedTemples)
 }
 
 function compare(temple1, temple2) {
